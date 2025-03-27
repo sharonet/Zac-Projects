@@ -182,6 +182,7 @@ def main():
             # Read and decrypt the file after successful authentication
             decrypted_data = SecureFileManager.decrypt_file("secret_file.enc")
             print(f"🔓 Decrypted File Content: {decrypted_data}")
+            break
 
         else:
             print("❌ Incorrect OTP. Authentication failed!")
